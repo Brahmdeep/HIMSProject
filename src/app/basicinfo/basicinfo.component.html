@@ -14,62 +14,96 @@
         
           <div class="form-row" >
             <div class="col-md-4 mb-3" >
-              <label for="validationDefault01">First name</label>
-              <input type="text"  class="form-control" id="validationDefault01" placeholder="First name"  required>
+              <label for="validationDefault01">Examined At</label>
+              <input type="text"  class="form-control" readonly id="validationDefault01" value="Railway Hospital" required>
             </div>
             <div class="col-md-4 mb-3" >
-                <label for="validationDefault02">Middle Name</label>
-                <input type="text" class="form-control" id="validationDefault02" placeholder="Middle name"  required>
+                <label for="validationDefault02">Station</label>
+                <input type="text" class="form-control" readonly id="validationDefault02" value="NJP"  required>
               </div>
-            <div class="col-md-4 mb-3" >
-              <label for="validationDefault02">Last Name</label>
-              <input type="text" class="form-control" id="validationDefault02" placeholder="Last name"  required>
-            </div>
+              <div class="col-lg-4 col-md-4">
+                  <label for="inputState" class="label">Examined By</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>--select--</option>
+                    <option>Dr.ABC</option>
+                    <option>Dr.BCD</option>
+                    <option>Dr.CDE</option>
+                    <option>Dr.ADB</option>
+                  </select>
+                </div>
           </div>
           <div class="form-row">
             <div class="col-md-4 mb-3">
-              <label for="validationDefault03">Health Care Center</label>
-              <input type="text" class="form-control" readonly id="validationDefault03" value="Railway Hospital" required>
+              <label for="validationDefault03">Zone</label>
+              <input type="text" class="form-control" readonly id="validationDefault03" value="NORTH FRONTIER RAILWAY" required>
             </div>
             <div class="col-md-4 mb-3">
-              <label for="validationDefault04">Designation</label>
-              <input type="text" class="form-control "  id="validationDefault04" placeholder="Designation" required>
+              <label for="validationDefault04">Division</label>
+              <input type="text" class="form-control " readonly id="validationDefault04" value="KATIHAR DIVISION" required>
             </div>
             <div class="col-md-4 mb-3">
-                <label for="validationDefault04">Department</label>
-                <input type="text" class="form-control "  id="validationDefault04" placeholder="Department" required>
+                <label for="validationDefault04">Controlling Authority of Employee</label>
+                <input type="text" class="form-control "  id="validationDefault04" placeholder="Controlling Authority of Employee" required>
               </div>
           </div>
       
           <div class="form-row">
               <div class="col-md-4 mb-3" style="width:0">
-                <label for="validationDefault03">Station</label>
-                <input type="text" class="form-control" id="validationDefault03" placeholder="Station" required>
+                <label for="validationDefault03">Medical I Card</label>
+                <input type="text" class="form-control" id="validationDefault03" placeholder="Medical I Card" required>
               </div>
               <div class="col-md-4 mb-3">
-                <label for="validationDefault04">Email Id</label>
-                <input type="text" class="form-control "  id="validationDefault04" placeholder="Email id" required>
+                <label for="validationDefault04">Medical I Pass</label>
+                <input type="text" class="form-control "  id="validationDefault04" placeholder="Medical I Pass" required>
               </div>
               <div class="col-md-4 mb-3">
-                  <label for="validationDefault04">Mobile No.</label>
-                  <input type="text" class="form-control "  id="validationDefault04" placeholder="Mobile No" required>
+                  <label for="validationDefault04">Registration Number</label>
+                  <input type="text" class="form-control "  id="validationDefault04" placeholder="Registration No" required>
                 </div>
             </div>
             <div class="form-row">
-                <div class="col-lg-4 col-md-3 mb-3">
-                  <label for="validationDefault04">Railway No.</label>
-                  <input type="text" class="form-control "  id="validationDefault04" placeholder="State" required>
+                <div class="col-md-4 mb-3" >
+                    <label for="validationDefault01">First name</label>
+                    <input type="text"  class="form-control" id="validationDefault01" placeholder="First name"  required>
+                  </div>
+                  <div class="col-md-4 mb-3" >
+                      <label for="validationDefault02">Middle Name</label>
+                      <input type="text" class="form-control" id="validationDefault02" placeholder="Middle name"  required>
+                    </div>
+                  <div class="col-md-4 mb-3" >
+                    <label for="validationDefault02" class="label">Last Name</label>
+                    <input type="text" class="form-control" id="validationDefault02" placeholder="Last name"  required>
+                  </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-4 mb-3" >
+                    <label for="validationDefault01" class="label">Designation</label>
+                    <input type="text"  class="form-control" id="validationDefault01" placeholder="Designation"  required>
+                  </div>
+                  <div class="col-md-4 mb-3" >
+                      <label for="validationDefault02" class="label">Department</label>
+                      <input type="text" class="form-control" id="validationDefault02" placeholder="Department"  required>
+                    </div>
+                  <div class="col-md-4 mb-3" >
+                    <label for="validationDefault02" class="label">Employee Serving Station</label>
+                    <input type="text" class="form-control" id="validationDefault02" placeholder="Employee Serving Station"  required>
+                  </div>
+            </div>
+            <div class="form-row" >
+                <div class="col-lg-6 col-md-6">
+                  <div class="label">Date of Birth</div>
+                  <div class="col-10">
+                      <input class="form-control" type="date"  id="example-date-input">
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-4">
-                    <label for="inputState">Select Role</label>
-                    <select id="inputState" class="form-control">
-                      <option selected>Choose...</option>
-                      <option>Employee</option>
-                      <option>Guard</option>
-                      <option>Clerk</option>
-                    </select>
+                <div class="col-lg-6 col-md-6" >
+                    <div class="label" class="label">Examined Date</div>
+                    <div class="col-10">
+                        <input class="form-control" type="date"  id="example-date-input">
+                      </div>
                   </div>
               </div>
-          <button class="btn btn-primary" type="submit" style="margin-left: 40%;margin-right:20% "><a href="" style="color: black;">Submit form</a></button>
+            
+          <button class="btn btn-primary" type="submit" style="margin-left: 40%;margin-right:20% ;margin-top: 2%;margin-bottom: 2%"><a routerLink="/Addcheckup/physical" style="color: black;">Save And Next</a></button>
         </form>
   </div>

@@ -13,3 +13,8 @@
 #divtop{
     background-color: #f7f7f7;
 }
+
+.label:after{
+    content:"*" ;
+    color:red   
+    }
