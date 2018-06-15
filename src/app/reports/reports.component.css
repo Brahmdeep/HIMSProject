@@ -1,0 +1,11 @@
+.label:after{
+    content:"*" ;
+    color:red   
+    }
+
+table{
+    margin-bottom: 3%;
+}
+form{
+    padding-bottom: 0%;
+}

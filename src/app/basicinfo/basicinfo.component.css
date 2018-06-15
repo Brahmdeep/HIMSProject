@@ -1,0 +1,15 @@
+.ainactive{
+    color: black;
+    font-size: 15px;
+    margin-left:2px;
+    margin-right:2px;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+}
+#a1{
+    background-color: rgb(244, 66, 66,0.2);
+    border-radius:5px; 
+}
+#divtop{
+    background-color: #f7f7f7;
+}
