@@ -5,13 +5,15 @@ import { AppRoutingModule,routingComponent } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SigInComponent } from './sig-in/sig-in.component';
 import { MedicalStafRegComponent } from './medical-staf-reg/medical-staf-reg.component';
+import { HospitalRegComponent } from './hospital-reg/hospital-reg.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     routingComponent,
     SigInComponent,
-    MedicalStafRegComponent
+    MedicalStafRegComponent,
+    HospitalRegComponent
   ],
   imports: [
     BrowserModule,
