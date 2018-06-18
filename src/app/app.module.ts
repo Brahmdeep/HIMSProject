@@ -13,6 +13,7 @@ import { GPEComponent } from './gpe/gpe.component';
 import { SCEComponent } from './sce/sce.component';
 import { IvestComponent } from './ivest/ivest.component';
 import { FinalComponent } from './final/final.component';
+import { OPDRegComponent } from './opdreg/opdreg.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FinalComponent } from './final/final.component';
     GPEComponent,
     SCEComponent,
     IvestComponent,
-    FinalComponent
+    FinalComponent,
+    OPDRegComponent
   ],
   imports: [
     BrowserModule,

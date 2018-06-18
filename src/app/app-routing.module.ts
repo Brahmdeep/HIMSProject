@@ -12,6 +12,7 @@ import { GPEComponent } from './gpe/gpe.component';
 import { SCEComponent } from './sce/sce.component';
 import { IvestComponent } from './ivest/ivest.component';
 import { FinalComponent } from './final/final.component';
+import { OPDRegComponent } from './opdreg/opdreg.component';
 
 const routes: Routes = [
   {path:'signin',component:SigInComponent},
@@ -25,7 +26,8 @@ const routes: Routes = [
   {path:'Addcheckup/physical', component:GPEComponent},
   {path:'Addcheckup/clinincal',component:SCEComponent},
   {path:'Addcheckup/investigations',component:IvestComponent},
-  {path:'Addcheckup/final',component:FinalComponent}
+  {path:'Addcheckup/final',component:FinalComponent},
+  {path:'Addcheckup/opd',component:OPDRegComponent}
 ];
 
 @NgModule({
